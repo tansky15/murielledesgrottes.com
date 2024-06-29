@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--====== Title ======-->
-    <title>Wonted - Book and publisher landing page</title>
+    <title>Murielle Desgrottes - Accueil</title>
     <!-- ========== Favicon Ico ========== -->
     <link rel="icon" href="assets/images/favicon.ico" />
     <!-- Headings font -->
@@ -49,7 +49,7 @@
     />
     <!-- Default font version -->
     <!--  Template Flat BG -->
-    <!-- <link href="assets/css/colors/wildBlue.css" rel="stylesheet"> -->
+   <link href="assets/css/colors/wildBlue.css" rel="stylesheet"> 
     <!-- <link href="assets/css/colors/nomad.css" rel="stylesheet"> -->
     <!-- <link href="assets/css/colors/viridian.css" rel="stylesheet"> -->
     <!-- <link href="assets/css/colors/pink.css" rel="stylesheet"> -->
@@ -75,168 +75,9 @@
       <div id="preLoader"></div>
       <!-- ========== Preloader end ========== -->
       <!-- ========== Header start ========== -->
-      <header class="header">
-        <div class="container">
-          <div class="row">
-            <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand" href="index.html">
-                <!-- <h1 class="m-0">WONTED</h1> -->
-                <img src="assets/images/wonted-logo.png" alt="Wonted" />
-              </a>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul id="onepage-nav" class="navbar-nav menu ms-lg-auto">
-                  <li class="nav-item active dropdown submenu">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#hero"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      >Home
-                    </a>
-                    <span
-                      class="sub-menu-toggle dropdown-toggle"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <i class="icofont-rounded-down"></i>
-                    </span>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home One</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-2.html" class="nav-link">Home Two</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-3.html" class="nav-link">Home Three</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-4.html" class="nav-link">Home Four</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-5.html" class="nav-link">Home Five</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-6.html" class="nav-link">Home Six</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#books">Books</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#achivements">Achievements</a>
-                  </li>
-                  <li class="nav-item dropdown submenu">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#events"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      >Events
-                    </a>
-                    <span
-                      class="sub-menu-toggle dropdown-toggle"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <i class="icofont-rounded-down"></i>
-                    </span>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a href="all-events.html" class="nav-link"
-                          >All Events</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="single-event.html" class="nav-link"
-                          >Single Event</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#testimonial">Testimonials</a>
-                  </li>
-                  <li class="nav-item dropdown submenu">
-                    <a
-                      class="nav-link scroll dropdown-toggle"
-                      href="#blog"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      >Blog
-                    </a>
-                    <span
-                      class="sub-menu-toggle dropdown-toggle"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <i class="icofont-rounded-down"></i>
-                    </span>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a href="blog-grid.html" class="nav-link">Blog Grid</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="blog-list.html" class="nav-link">Blog List</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="left-sidebar.html" class="nav-link"
-                          >Left Sidebar</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="right-sidebar.html" class="nav-link"
-                          >Right Sidebar</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="single-blog.html" class="nav-link"
-                          >Details Without Sidebar</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="blog-left-sidebar.html" class="nav-link"
-                          >Details Left Sidebar</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="blog-right-sidebar.html" class="nav-link"
-                          >Details Right Sidebar</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <button
-                class="navbar-toggler collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span></span><span></span><span></span><span></span><span></span
-                ><span></span>
-              </button>
-            </nav>
-          </div>
-        </div>
-      </header>
+     <?php
+            include './partials/header.php';
+     ?>
       <!-- ========== Header end ========== -->
       <!-- ========== Hero section start ========== -->
       <section
@@ -2769,36 +2610,6 @@
                     * eBook includes iBooks, PDF &amp; ePub versions
                   </p>
                 </form>
-                <!-- Mailchimp subscription form -->
-                <!-- <form
-              action="#"
-              id="subscribe-mailchimp"
-              data-wow-duration="1.5s"
-            >
-              <div class="mb13">
-                <input
-                  class="cta-email"
-                  type="email"
-                  name="email"
-                  placeholder="Your Email"
-                />
-              </div>
-              <button
-                type="submit"
-                class="w-100 button button__primary align-items-center"
-              >
-                <span>Subscribe Now <i class="icofont-arrow-right"></i></span>
-              </button>
-              <div class="result">
-                <p class="success-msg">
-                  <i class="icofont-check"></i> Your email has been stored!
-                </p>
-                <p class="error-msg">
-                  <i class="icofont-close"></i> Sorry! Something went wrong!
-                </p>
-              </div>
-            </form> -->
-                <!-- subscription form end -->
               </div>
             </div>
           </div>
@@ -2844,142 +2655,10 @@
       </section>
       <!-- ========== CTA v3 section end ========== -->
       <!-- ========== Footer section Start ========== -->
-      <footer class="footer bg-one overflow-hidden">
-        <div class="container">
-          <div class="footer__top m-50px-t m-50px-b">
-            <div class="row">
-              <div
-                class="col-lg-3 d-flex justify-content-center align-items-center mb-3 mb-lg-0 justify-content-lg-start"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="150"
-              >
-                <a href="index.html">
-                  <img
-                    width="80"
-                    src="assets/images/book-note-icon.png"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div
-                class="col-lg-6 d-flex justify-content-center align-items-center mb-3 mb-lg-0"
-              >
-                <ul class="footer__menu">
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <a href="#hero" class="smooth">Home</a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="250"
-                  >
-                    <a href="#about" class="smooth">About</a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="300"
-                  >
-                    <a href="#books" class="smooth">Books</a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="350"
-                  >
-                    <a href="#achivements" class="smooth">Achivements</a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="400"
-                  >
-                    <a href="#events" class="smooth">Events</a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="450"
-                  >
-                    <a href="#testimonial" class="smooth">Testimonial</a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="500"
-                  >
-                    <a href="#blog" class="smooth">Blog</a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="550"
-                  >
-                    <a href="#contact" class="smooth">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="col-lg-3 d-flex justify-content-center align-items-center mb-3 mb-lg-0 justify-content-lg-end"
-              >
-                <ul class="social-icon">
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="600"
-                  >
-                    <a href="#"><i class="icofont-facebook"></i></a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="650"
-                  >
-                    <a href="#"><i class="icofont-twitter"></i></a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="700"
-                  >
-                    <a href="#"><i class="icofont-linkedin"></i></a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="750"
-                  >
-                    <a href="#"><i class="icofont-youtube-play"></i></a>
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="800"
-                  >
-                    <a href="#"><i class="icofont-whatsapp"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="footer__copyright m-20px-t m-20px-b">
-            <div class="row">
-              <div class="col-12">
-                <p class="m-0 text-center">
-                  &copy; 2023 All right reserved. Made with
-                  <i class="icofont-heart"></i> by <a href="#">ThemeAtelier</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <?php 
+            include './partials/footer.php';
+
+?>
       <!-- ========== Footer section End ========== -->
     </div>
     <!--====== jquery js ======-->
@@ -3006,57 +2685,6 @@
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <!--====== Custom js ======-->
     <script src="assets/js/custom.js"></script>
-    <!-- =========================================================
-      STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
-  ============================================================== -->
-    <script src="demo/demo.js"></script>
-    <div class="demo-style-switch" id="switch-style">
-      <a id="toggle-switcher" class="switch-button" title="Change Styles"
-        ><i class="icofont-ui-settings"></i
-      ></a>
-      <div class="switched-options">
-        <div class="config-title">BG variants:</div>
-        <ul class="styles">
-          <li>
-            <div class="oldRose color" id="oldRose"></div>
-          </li>
-          <li>
-            <div class="wildBlue color" id="wildBlue"></div>
-          </li>
-          <li>
-            <div class="nomad color" id="nomad"></div>
-          </li>
-          <li>
-            <div class="viridian color" id="viridian"></div>
-          </li>
-          <li>
-            <div class="pink color" id="pink"></div>
-          </li>
-          <li>
-            <div class="coffee color" id="coffee"></div>
-          </li>
-          <li>
-            <div class="royal color" id="royal"></div>
-          </li>
-          <li>
-            <div class="sky color" id="sky"></div>
-          </li>
-          <li>
-            <div class="olive color" id="olive"></div>
-          </li>
-        </ul>
-        <div class="config-title">Font variants:</div>
-        <select id="chose-typography">
-          <option value="philosopher-poppins">Philosopher + Poppins</option>
-          <option value="poppins-roboto">Poppins + Roboto</option>
-          <option value="josepin-sourceSansPro">Josepin + SourceSansPro</option>
-          <option value="montserrat-lato">Montserrat + Lato</option>
-          <option value="raleway-montserrat">Raleway + Montserrat</option>
-          <option value="avril-lato">Avril + Lato</option>
-        </select>
-      </div>
-    </div>
+ 
   </body>
-
-<!-- Mirrored from themeatelier.net/site-templates/wonted/one-page-version/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 29 Jun 2024 19:05:24 GMT -->
 </html>
