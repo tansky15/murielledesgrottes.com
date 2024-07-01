@@ -1,1 +1,8 @@
+# Ignorer le répertoire unusepages/
 unusepages/
+
+# Ignorer le fichier config.php
+config.php
+
+# Ignorer le fichier Presentation.mp4 dans le répertoire medias
+medias/Presentation.mp4
